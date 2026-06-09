@@ -28,7 +28,7 @@ app.get('/', (req, res) => {
   }).join('\n  ');
 
   const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="2592" height="200">
-  <rect width="2592" height="200" fill="rgb(39, 97, 73)"/>
+  <rect width="2592" height="200" fill="#307262"/>
   ${textElements}
 </svg>`;
 
