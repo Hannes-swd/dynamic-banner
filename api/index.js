@@ -4,6 +4,21 @@ const app = express();
 const texts = [
   "Primary: C++",
   "Always Learning",
+  "Problem Solver",
+  "Let's build something",
+  "Passionate Developer",
+  "Real-time Focused",
+  "Stay Curious",
+  "SOLID Code",
+  "Tested & Proven",
+  "Solutions Focused",
+  "Open Source Fan",
+  "Experience First",
+  "Think Big",
+  "Logic First",
+  "Learn by Doing",
+  "Backend Focus",
+  "Practice Daily",
   "making cool stuff"
 ];
 
