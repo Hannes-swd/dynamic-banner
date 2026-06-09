@@ -2,10 +2,8 @@ const express = require('express');
 const app = express();
 
 const texts = [
-  "27 Repositories",
   "Primary: C++",
-  "Always Learning",
-  "Südtirol 🇮🇹"
+  "Always Learning"
 ];
 
 function escapeXml(str) {
