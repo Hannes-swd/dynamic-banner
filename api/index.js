@@ -3,7 +3,8 @@ const app = express();
 
 const texts = [
   "Primary: C++",
-  "Always Learning"
+  "Always Learning",
+  "making cool stuff"
 ];
 
 function escapeXml(str) {
