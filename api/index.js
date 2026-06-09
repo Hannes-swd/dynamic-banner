@@ -33,7 +33,7 @@ app.get('/', (req, res) => {
   const text = texts[Math.floor(Math.random() * texts.length)];
 
   const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="2592" height="200">
-  <rect width="2592" height="200" fill="rgb(39, 97, 73)"/>
+  <rect width="2592" height="200" fill="#307262"/>
   <text x="1296" y="100" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="80" font-weight="600" fill="#ffffff" text-anchor="middle" dominant-baseline="central">${escapeXml(text)}</text>
 </svg>`;
 
